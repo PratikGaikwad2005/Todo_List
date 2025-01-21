@@ -1,0 +1,62 @@
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+.todoForm input{
+  height: 40px;
+  flex-basis: 80%;
+}
+.todoForm button{
+  flex-basis: 20%;
+  cursor: pointer;
+}
+.TodoDisplayList{
+  width: 1170px;
+  margin: auto;
+  height: 50px;
+}
+.TodoDisplayList ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 50px;
+}
+.TodoDisplayList ul li{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.TodoDisplayList span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.completeTodo{
+  text-decoration: line-through;
+  background-color: green !important;
+  color: orange;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
